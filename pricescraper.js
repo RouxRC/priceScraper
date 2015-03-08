@@ -37,7 +37,7 @@ var droid = sandcrawler.phantomDroid()
     else {
       // TODO click on display more if present
 
-      output.announces = $('.#advert_list tbody tr').scrape({
+      output.announces = $('#advert_list tbody tr').scrape({
         url: {sel: '.actionLnk li .see_details', attr: 'href'},
         price: {sel: '.priceInfos .price b'},
         condition: {sel: '.advertType .priceInfos .typeUsed b'},
