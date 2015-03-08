@@ -21,10 +21,7 @@ var droid = sandcrawler.phantomDroid()
     maxRetries: 5
   })
   .throttle(250, 1000)
-  .url({
-    url: 'http://www.priceminister.com/s/megadrive?nav=Jeux-Video-et-Consoles_Jeux-Video',
-    data: {type: 'search'}
-  })
+  .url('http://www.priceminister.com/s/megadrive?nav=Jeux-Video-et-Consoles_Jeux-Video')
   .scraper(function($, done) {
     var output = {};
 
@@ -71,7 +68,10 @@ var droid = sandcrawler.phantomDroid()
           this.logger.info('Skipping already scraped item ' + item.name)
         else this.addUrl({
           url: item.url,
-          data: {item: item}
+          data: {
+            sourceurl: req.url,
+            item: item,
+          }
         });
       }, this);
 
