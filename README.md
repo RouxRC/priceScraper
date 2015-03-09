@@ -6,7 +6,10 @@ PriceScaper
 Install Node, then:
 
 ```bash
-    npm install jsonfile sandcrawler sandcrawler-logger sandcrawler-dashboard
+    npm install git+https://github.com/medialab/sandcrawler.git
+    npm install git+https://github.com/Yomguithereal/sandcrawler-logger.git
+    npm install git+https://github.com/medialab/sandcrawler-dashboard.git
+    npm install jsonfile
 ```
 
 + Run :
