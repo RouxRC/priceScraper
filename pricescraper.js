@@ -14,7 +14,7 @@ var jf = require('jsonfile'),
 jf.spaces = 2;
 
 var droid = sandcrawler.phantomDroid()
-  //.use(logger(logConf))
+  .use(logger(logConf))
   .use(dashboard({logger: logConf}))
   .config({
     timeout: 30000,
@@ -33,14 +33,8 @@ var droid = sandcrawler.phantomDroid()
     });
     output.nextPage = $('.pmbt.btn.next').attr('href');
 
-    // Click on display more announces if present
-    var wait = 0;
-    if ($('.btn.moreResults').length) {
-      $('.btn.moreResults').click();
-      wait = 1000;
-    }
-    setTimeout(function(){
     // Scrape announces from item's page
+    var scrapeAnnounces = function() {
       output.announces = $('#advert_list tbody tr').filter(function(){
         return $(this).find('.advertPrice').length;
       }).scrape({
@@ -52,9 +46,18 @@ var droid = sandcrawler.phantomDroid()
         vendor_rating: {sel: '.sellerRating .value'},
         vendor_ratings: {sel: '.sellerRating .sales'}
       });
-  
       done(null, output);
-    }, wait);
+    }
+
+    // Click on display more announces if present
+    if ($('.btn.moreResults').length)
+      artoo.autoExpand({
+        elements: '#advert_list tbody tr',
+        expand: '.btn.moreResults',
+        limit: 1,
+        done: scrapeAnnounces
+      });
+    else scrapeAnnounces();
   })
   .result(function(err, req, res) {
     if (err)
