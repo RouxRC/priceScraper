@@ -14,7 +14,7 @@ var jf = require('jsonfile'),
 jf.spaces = 2;
 
 var droid = sandcrawler.phantomDroid()
-  .use(logger(logConf))
+  //.use(logger(logConf))
   .use(dashboard({logger: logConf}))
   .config({
     timeout: 30000,
