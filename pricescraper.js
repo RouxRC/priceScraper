@@ -19,7 +19,8 @@ var droid = sandcrawler.phantomDroid()
   //.use(logger(logConf))
   .use(dashboard({logger: logConf}))
   .config({
-    timeout: 30000,
+    timeout: 40000,
+    concurrency: 3,
     maxRetries: 5
   })
   .throttle(250, 1000)
@@ -60,6 +61,11 @@ var droid = sandcrawler.phantomDroid()
         done: scrapeAnnounces
       });
     else scrapeAnnounces();
+
+    setTimeout(function(){
+      if (!output.announces) scrapeAnnounces();
+    }, 25000);
+
   })
   .result(function(err, req, res) {
     if (err)
