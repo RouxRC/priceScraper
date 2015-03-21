@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var jf = require('jsonfile'),
   sandcrawler = require('sandcrawler'),
   logger = require('sandcrawler-logger'),
