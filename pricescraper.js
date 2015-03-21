@@ -114,8 +114,9 @@ jf.readFile('data.json', function(err, data){
     });
     droid.logger.info('Starting scraping with already ' + Object.keys(doneItemUrls).length + ' items processed');
   }
-  droid.run(function(err, remains) {
-    // TODO Write CSV + errors
-    //jf.writeFile('data.json', results);
+  sandcrawler.spawn({
+    path: '/home/boogheta/dev/sandcrawler/phantomjs-2.0.0',
+  }, function(err, phantom) {
+    phantom.run(droid, function(err, remains) {});
   });
 });
