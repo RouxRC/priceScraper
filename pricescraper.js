@@ -19,7 +19,7 @@ var droid = sandcrawler.phantomDroid()
   //.use(logger(logConf))
   .use(dashboard({logger: logConf}))
   .config({
-    timeout: 40000,
+    timeout: 30000,
     concurrency: 3,
     maxRetries: 5
   })
@@ -55,16 +55,12 @@ var droid = sandcrawler.phantomDroid()
     // Click on display more announces if present
     if ($('.btn.moreResults').length)
       artoo.autoExpand({
-        elements: '#advert_list tbody tr',
+        canExpand: '.btn.moreResults',
         expand: '.btn.moreResults',
         limit: 1,
         done: scrapeAnnounces
       });
     else scrapeAnnounces();
-
-    setTimeout(function(){
-      if (!output.announces) scrapeAnnounces();
-    }, 25000);
 
   })
   .result(function(err, req, res) {
