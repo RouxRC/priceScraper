@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Liste des jeux Megadrive sur PriceMinister.com</title>
+  <style>
+.game{
+ float: left;
+ border: 1px dashed grey;
+ padding: 5px;
+ margin: 5px;
+ width: 210px;
+ height: 320px;
+ text-align: center;
+}
+.game img{
+ max-width: 170px;
+ max-height: 200px;
+}
+  </style>
+</head>
+<body>
+<div id="jeux"></div>
+</body>
+<script type="text/javascript" src="js/d3.min.js"></script>
+<script>
+  window.selection = [];
+  var addItem = function(d){
+      console.log(d);
+      window.selection.push(d);
+    };
+  d3.json("data.json", function(error, data) {
+    var items = d3.nest()
+      .key(function(d){ return d.id })
+      .entries(data)
+      .sort(function(a,b){
+        var na = a.values[0].name,
+            nb = b.values[0].name;
+        return (na === nb ? 0 : (na > nb ? 1 : -1));
+      });
+    d3.select('#jeux').selectAll("div")
+      .data(items)
+      .enter().append("div")
+      .attr("id", function(d){ return d.id })
+      .attr("class", "game")
+      .html(function(d, i){
+        var c = d.values[0],
+            u = '<a target="_blank" href="' + c.urlsource + '">';
+        return '<h4>' + u + c.name + '</a></h4>' +
+          '<p>' + u + '<img src="' + c.img + '" alt="' + c.id + '" title="'+ c.name +'"/></a></p>' +
+          '<p>' + d3.min(d.values, function(d){ return d.price }) + '&nbsp;€ → ' +
+                  d3.max(d.values, function(d){ return d.price }) + '&nbsp;€</p>' +
+          '<p>' + d.values.length + ' annonce' + (d.values.length > 1 ? 's' : '') + ' &mdash;' +
+          '<a href="#"><span onclick="addItem('+c.id+');">Ajouter</span></a></p>' +
+        '</a>';
+      });
+  });
+ 
+</script>
+</html>
