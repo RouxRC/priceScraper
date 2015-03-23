@@ -1,0 +1,27 @@
+{
+  "name": "priceScraper",
+  "version": "0.1.1",
+  "description": "PriceMinister.com's megadrive announces scraper",
+  "main": "pricescraper.js",
+  "dependencies": {
+    "jsonfile": "~2.0.0",
+    "sandcrawler": "~0.0.2",
+    "sandcrawler-dashboard": "~0.1.0",
+    "sandcrawler-logger": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pipinstall": "pip install networkx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RouxRC/priceScraper.git"
+  },
+  "author": "RouxRC",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/RouxRC/priceScraper/issues"
+  },
+  "homepage": "https://github.com/RouxRC/priceScraper"
+}
