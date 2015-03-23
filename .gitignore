@@ -1,3 +1,4 @@
 data.json*
 selection.csv
 node_modules
+*.pyc

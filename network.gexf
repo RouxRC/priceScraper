@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="ratings" type="double" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="occurences" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="Madgui" label="Madgui">
+        <attvalues>
+          <attvalue for="0" value="10.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="VectorMan" label="VectorMan">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Mathieu3114" label="Mathieu3114">
+        <attvalues>
+          <attvalue for="0" value="240.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="carnage2607" label="carnage2607">
+        <attvalues>
+          <attvalue for="0" value="30.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="EarthwormJim" label="EarthwormJim">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="LetyCia5" label="LetyCia5">
+        <attvalues>
+          <attvalue for="0" value="15.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="GAMEROOM" label="GAMEROOM">
+        <attvalues>
+          <attvalue for="0" value="14065.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="renovatio75" label="renovatio75">
+        <attvalues>
+          <attvalue for="0" value="22.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="entropie08" label="entropie08">
+        <attvalues>
+          <attvalue for="0" value="81.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="jer_letdown" label="jer_letdown">
+        <attvalues>
+          <attvalue for="0" value="271.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Free-agents" label="Free-agents">
+        <attvalues>
+          <attvalue for="0" value="5892.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="SoukoGames" label="SoukoGames">
+        <attvalues>
+          <attvalue for="0" value="160936.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Ristar" label="Ristar">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Thunderforce" label="Thunderforce">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="Roomys444" label="Roomys444">
+        <attvalues>
+          <attvalue for="0" value="25.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="michelcollec" label="michelcollec">
+        <attvalues>
+          <attvalue for="0" value="7525.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="sjehan" label="sjehan">
+        <attvalues>
+          <attvalue for="0" value="4167.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="SqualAttack" label="SqualAttack">
+        <attvalues>
+          <attvalue for="0" value="1532.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="delpiero016" label="delpiero016">
+        <attvalues>
+          <attvalue for="0" value="1672.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="happy16430" label="happy16430">
+        <attvalues>
+          <attvalue for="0" value="50.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="GoldenAxe" label="GoldenAxe">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="natifdazeray" label="natifdazeray">
+        <attvalues>
+          <attvalue for="0" value="607.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hidalgo369" label="Hidalgo369">
+        <attvalues>
+          <attvalue for="0" value="54.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="shanga1" label="shanga1">
+        <attvalues>
+          <attvalue for="0" value="2056.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="AyOr84" label="AyOr84">
+        <attvalues>
+          <attvalue for="0" value="71.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="kinou091" label="kinou091">
+        <attvalues>
+          <attvalue for="0" value="616.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="joeye08" label="joeye08">
+        <attvalues>
+          <attvalue for="0" value="1517.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="maumo62" label="maumo62">
+        <attvalues>
+          <attvalue for="0" value="14.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="CashAndCie" label="CashAndCie">
+        <attvalues>
+          <attvalue for="0" value="2247.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="MaiLinh1" label="MaiLinh1">
+        <attvalues>
+          <attvalue for="0" value="328.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="golem0072" label="golem0072">
+        <attvalues>
+          <attvalue for="0" value="1832.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="hiruma80" label="hiruma80">
+        <attvalues>
+          <attvalue for="0" value="327.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="jamietomi" label="jamietomi">
+        <attvalues>
+          <attvalue for="0" value="13.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Shinobi3" label="Shinobi3">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="gatchaman-02" label="gatchaman-02">
+        <attvalues>
+          <attvalue for="0" value="12751.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="SPASMINE" label="SPASMINE">
+        <attvalues>
+          <attvalue for="0" value="10860.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Dvdcave" label="Dvdcave">
+        <attvalues>
+          <attvalue for="0" value="6344.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="uniistyle" label="uniistyle">
+        <attvalues>
+          <attvalue for="0" value="119.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="drill3333" label="drill3333">
+        <attvalues>
+          <attvalue for="0" value="82.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="momox" label="momox">
+        <attvalues>
+          <attvalue for="0" value="413405.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Zertyr" label="Zertyr">
+        <attvalues>
+          <attvalue for="0" value="600.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mylady2" label="Mylady2">
+        <attvalues>
+          <attvalue for="0" value="83.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="sensei90" label="sensei90">
+        <attvalues>
+          <attvalue for="0" value="19.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="mixomedia" label="mixomedia">
+        <attvalues>
+          <attvalue for="0" value="6954.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Livresia" label="Livresia">
+        <attvalues>
+          <attvalue for="0" value="1643.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="neor24" label="neor24">
+        <attvalues>
+          <attvalue for="0" value="142.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="media-market" label="media-market">
+        <attvalues>
+          <attvalue for="0" value="7772.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="gatteau1" label="gatteau1">
+        <attvalues>
+          <attvalue for="0" value="51.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="yannickb85" label="yannickb85">
+        <attvalues>
+          <attvalue for="0" value="106.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="michel03110" label="michel03110">
+        <attvalues>
+          <attvalue for="0" value="449.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sillicium" label="Sillicium">
+        <attvalues>
+          <attvalue for="0" value="10489.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="LivreJungle" label="LivreJungle">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="SupremeGamer" label="SupremeGamer">
+        <attvalues>
+          <attvalue for="0" value="2800.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="magick41" label="magick41">
+        <attvalues>
+          <attvalue for="0" value="4918.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="damino95" label="damino95">
+        <attvalues>
+          <attvalue for="0" value="1133.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="cyl20" label="cyl20">
+        <attvalues>
+          <attvalue for="0" value="730.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="ferraillou16" label="ferraillou16">
+        <attvalues>
+          <attvalue for="0" value="4968.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Chakan" label="Chakan">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="jeff77270" label="jeff77270">
+        <attvalues>
+          <attvalue for="0" value="155.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="kutkiller79" label="kutkiller79">
+        <attvalues>
+          <attvalue for="0" value="6.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="ChrisRF" label="ChrisRF">
+        <attvalues>
+          <attvalue for="0" value="9975.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="juvanji76" label="juvanji76">
+        <attvalues>
+          <attvalue for="0" value="58274.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="bourgogneTPG" label="bourgogneTPG">
+        <attvalues>
+          <attvalue for="0" value="18890.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="eddymarley" label="eddymarley">
+        <attvalues>
+          <attvalue for="0" value="117.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="neoayato_com" label="neoayato_com">
+        <attvalues>
+          <attvalue for="0" value="6980.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="dedoire1" label="dedoire1">
+        <attvalues>
+          <attvalue for="0" value="209.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="djdenis912" label="djdenis912">
+        <attvalues>
+          <attvalue for="0" value="87.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="AlteredBeast" label="AlteredBeast">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </node>
+      <node id="raptosnake" label="raptosnake">
+        <attvalues>
+          <attvalue for="0" value="2267.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="sevgames" label="sevgames">
+        <attvalues>
+          <attvalue for="0" value="179.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="trashy-synny" label="trashy-synny">
+        <attvalues>
+          <attvalue for="0" value="272.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Kuroneko13" label="Kuroneko13">
+        <attvalues>
+          <attvalue for="0" value="12.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="dada92210" label="dada92210">
+        <attvalues>
+          <attvalue for="0" value="4129.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="wr23" label="wr23">
+        <attvalues>
+          <attvalue for="0" value="168.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="hedi-b" label="hedi-b">
+        <attvalues>
+          <attvalue for="0" value="3255.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="amic3476" label="amic3476">
+        <attvalues>
+          <attvalue for="0" value="1031.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="domy28" label="domy28">
+        <attvalues>
+          <attvalue for="0" value="3044.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="clocloboutik" label="clocloboutik">
+        <attvalues>
+          <attvalue for="0" value="40.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="wagdog" label="wagdog">
+        <attvalues>
+          <attvalue for="0" value="171.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="mike93fr" label="mike93fr">
+        <attvalues>
+          <attvalue for="0" value="297.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="sharkobaba" label="sharkobaba">
+        <attvalues>
+          <attvalue for="0" value="754.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="vince89110" label="vince89110">
+        <attvalues>
+          <attvalue for="0" value="11.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Zarathos37" label="Zarathos37">
+        <attvalues>
+          <attvalue for="0" value="254.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="sonic2015" label="sonic2015">
+        <attvalues>
+          <attvalue for="0" value="96.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="angst3" label="angst3">
+        <attvalues>
+          <attvalue for="0" value="65.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="sddp77" label="sddp77">
+        <attvalues>
+          <attvalue for="0" value="970.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="amboisedulys" label="amboisedulys">
+        <attvalues>
+          <attvalue for="0" value="807.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Guido78" label="Guido78">
+        <attvalues>
+          <attvalue for="0" value="576.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="metallica5" label="metallica5">
+        <attvalues>
+          <attvalue for="0" value="73.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="lucileanger" label="lucileanger">
+        <attvalues>
+          <attvalue for="0" value="3127.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="pitchoune115" label="pitchoune115">
+        <attvalues>
+          <attvalue for="0" value="13.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="DynamiteHeaddy" label="DynamiteHeaddy">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </node>
+      <node id="tutti_media" label="tutti_media">
+        <attvalues>
+          <attvalue for="0" value="55422.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Telzat" label="Telzat">
+        <attvalues>
+          <attvalue for="0" value="43.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="scaroff2" label="scaroff2">
+        <attvalues>
+          <attvalue for="0" value="88.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="summeroflove" label="summeroflove">
+        <attvalues>
+          <attvalue for="0" value="2183.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="ecopsypro" label="ecopsypro">
+        <attvalues>
+          <attvalue for="0" value="11792.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="pepere71230" label="pepere71230">
+        <attvalues>
+          <attvalue for="0" value="7.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="karenb" label="karenb">
+        <attvalues>
+          <attvalue for="0" value="963.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Castlevania" label="Castlevania">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </node>
+      <node id="SOLDATRYAN1" label="SOLDATRYAN1">
+        <attvalues>
+          <attvalue for="0" value="296.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="TofJV777" label="TofJV777">
+        <attvalues>
+          <attvalue for="0" value="431.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="arthurmuscik" label="arthurmuscik">
+        <attvalues>
+          <attvalue for="0" value="874.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="jeuxdecollec" label="jeuxdecollec">
+        <attvalues>
+          <attvalue for="0" value="24435.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="musclor19" label="musclor19">
+        <attvalues>
+          <attvalue for="0" value="146.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="boubou13006" label="boubou13006">
+        <attvalues>
+          <attvalue for="0" value="82.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dying-Z" label="Dying-Z">
+        <attvalues>
+          <attvalue for="0" value="84.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sam94sam" label="Sam94sam">
+        <attvalues>
+          <attvalue for="0" value="15076.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="noushkay" label="noushkay">
+        <attvalues>
+          <attvalue for="0" value="136.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="KCLC" label="KCLC">
+        <attvalues>
+          <attvalue for="0" value="4418.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="coranais78" label="coranais78">
+        <attvalues>
+          <attvalue for="0" value="25.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="sloan6464" label="sloan6464">
+        <attvalues>
+          <attvalue for="0" value="106.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="pentium4" label="pentium4">
+        <attvalues>
+          <attvalue for="0" value="4620.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="bau24" label="bau24">
+        <attvalues>
+          <attvalue for="0" value="392.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Arn-Occaz" label="Arn-Occaz">
+        <attvalues>
+          <attvalue for="0" value="1437.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Galahad" label="Galahad">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="scully38" label="scully38">
+        <attvalues>
+          <attvalue for="0" value="609.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Land-Videos" label="Land-Videos">
+        <attvalues>
+          <attvalue for="0" value="858.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="WorldOfIllusion" label="WorldOfIllusion">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </node>
+      <node id="ToeJam" label="ToeJam">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="nelvin31" label="nelvin31">
+        <attvalues>
+          <attvalue for="0" value="540.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ghouls" label="Ghouls">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="Serkeril" label="Serkeril">
+        <attvalues>
+          <attvalue for="0" value="9.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="banadone" label="banadone">
+        <attvalues>
+          <attvalue for="0" value="135.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="fred2817" label="fred2817">
+        <attvalues>
+          <attvalue for="0" value="54.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Strider" label="Strider">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="StreetsOfRage2" label="StreetsOfRage2">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Robotnik" label="Robotnik">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </node>
+      <node id="patmanico" label="patmanico">
+        <attvalues>
+          <attvalue for="0" value="314.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="GSFretro" label="GSFretro">
+        <attvalues>
+          <attvalue for="0" value="53.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="GeeKihabara" label="GeeKihabara">
+        <attvalues>
+          <attvalue for="0" value="113288.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </node>
+      <node id="chino008" label="chino008">
+        <attvalues>
+          <attvalue for="0" value="321.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="luluthewest" label="luluthewest">
+        <attvalues>
+          <attvalue for="0" value="26.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="a-ligne-z" label="a-ligne-z">
+        <attvalues>
+          <attvalue for="0" value="2246.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="DBZ59fig" label="DBZ59fig">
+        <attvalues>
+          <attvalue for="0" value="110.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="lebankier" label="lebankier">
+        <attvalues>
+          <attvalue for="0" value="362.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="fiesta8370" label="fiesta8370">
+        <attvalues>
+          <attvalue for="0" value="2734.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="frankzane" label="frankzane">
+        <attvalues>
+          <attvalue for="0" value="16.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Donald" label="Donald">
+        <attvalues>
+          <attvalue for="1" value="jeu" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="SIMPSONS4" label="SIMPSONS4">
+        <attvalues>
+          <attvalue for="0" value="1233.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="xx-007" label="xx-007">
+        <attvalues>
+          <attvalue for="0" value="3573.0" />
+          <attvalue for="1" value="vendeur" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Madgui" target="Strider" weight="1" />
+      <edge id="1" source="VectorMan" target="Land-Videos" weight="1" />
+      <edge id="2" source="VectorMan" target="Dvdcave" weight="1" />
+      <edge id="3" source="VectorMan" target="dada92210" weight="1" />
+      <edge id="4" source="Mathieu3114" target="Robotnik" weight="1" />
+      <edge id="5" source="Mathieu3114" target="Thunderforce" weight="1" />
+      <edge id="6" source="carnage2607" target="Ghouls" weight="1" />
+      <edge id="7" source="EarthwormJim" target="banadone" weight="1" />
+      <edge id="8" source="EarthwormJim" target="chino008" weight="1" />
+      <edge id="9" source="LetyCia5" target="AlteredBeast" weight="1" />
+      <edge id="10" source="GAMEROOM" target="GoldenAxe" weight="1" />
+      <edge id="11" source="GAMEROOM" target="DynamiteHeaddy" weight="1" />
+      <edge id="12" source="GAMEROOM" target="WorldOfIllusion" weight="1" />
+      <edge id="13" source="GAMEROOM" target="LivreJungle" weight="1" />
+      <edge id="14" source="GAMEROOM" target="Thunderforce" weight="1" />
+      <edge id="15" source="renovatio75" target="Castlevania" weight="1" />
+      <edge id="16" source="entropie08" target="AlteredBeast" weight="1" />
+      <edge id="17" source="jer_letdown" target="Galahad" weight="1" />
+      <edge id="18" source="Free-agents" target="Donald" weight="1" />
+      <edge id="19" source="Free-agents" target="Galahad" weight="1" />
+      <edge id="20" source="Free-agents" target="Robotnik" weight="2" />
+      <edge id="21" source="SoukoGames" target="GoldenAxe" weight="1" />
+      <edge id="22" source="SoukoGames" target="Castlevania" weight="2" />
+      <edge id="23" source="SoukoGames" target="Ghouls" weight="1" />
+      <edge id="24" source="Ristar" target="DBZ59fig" weight="1" />
+      <edge id="25" source="Ristar" target="CashAndCie" weight="1" />
+      <edge id="26" source="Ristar" target="Mylady2" weight="1" />
+      <edge id="27" source="Thunderforce" target="jeff77270" weight="1" />
+      <edge id="28" source="Thunderforce" target="fiesta8370" weight="1" />
+      <edge id="29" source="Thunderforce" target="delpiero016" weight="2" />
+      <edge id="30" source="Thunderforce" target="wr23" weight="1" />
+      <edge id="31" source="Thunderforce" target="tutti_media" weight="1" />
+      <edge id="32" source="Thunderforce" target="Guido78" weight="1" />
+      <edge id="33" source="Thunderforce" target="GeeKihabara" weight="1" />
+      <edge id="34" source="Roomys444" target="WorldOfIllusion" weight="1" />
+      <edge id="35" source="michelcollec" target="Donald" weight="1" />
+      <edge id="36" source="sjehan" target="Ghouls" weight="1" />
+      <edge id="37" source="SqualAttack" target="GoldenAxe" weight="1" />
+      <edge id="38" source="SqualAttack" target="Castlevania" weight="1" />
+      <edge id="39" source="SqualAttack" target="AlteredBeast" weight="1" />
+      <edge id="40" source="SqualAttack" target="WorldOfIllusion" weight="1" />
+      <edge id="41" source="delpiero016" target="Strider" weight="1" />
+      <edge id="42" source="delpiero016" target="Donald" weight="1" />
+      <edge id="43" source="happy16430" target="Ghouls" weight="1" />
+      <edge id="44" source="GoldenAxe" target="sloan6464" weight="1" />
+      <edge id="45" source="GoldenAxe" target="sharkobaba" weight="1" />
+      <edge id="46" source="GoldenAxe" target="Kuroneko13" weight="1" />
+      <edge id="47" source="GoldenAxe" target="juvanji76" weight="1" />
+      <edge id="48" source="GoldenAxe" target="hedi-b" weight="1" />
+      <edge id="49" source="GoldenAxe" target="GeeKihabara" weight="2" />
+      <edge id="50" source="natifdazeray" target="WorldOfIllusion" weight="1" />
+      <edge id="51" source="Hidalgo369" target="LivreJungle" weight="1" />
+      <edge id="52" source="shanga1" target="Strider" weight="1" />
+      <edge id="53" source="shanga1" target="Ghouls" weight="1" />
+      <edge id="54" source="AyOr84" target="Shinobi3" weight="1" />
+      <edge id="55" source="kinou091" target="AlteredBeast" weight="1" />
+      <edge id="56" source="joeye08" target="LivreJungle" weight="1" />
+      <edge id="57" source="maumo62" target="WorldOfIllusion" weight="1" />
+      <edge id="58" source="CashAndCie" target="Ghouls" weight="1" />
+      <edge id="59" source="CashAndCie" target="WorldOfIllusion" weight="1" />
+      <edge id="60" source="MaiLinh1" target="WorldOfIllusion" weight="1" />
+      <edge id="61" source="golem0072" target="WorldOfIllusion" weight="1" />
+      <edge id="62" source="hiruma80" target="Strider" weight="1" />
+      <edge id="63" source="jamietomi" target="Donald" weight="1" />
+      <edge id="64" source="Shinobi3" target="wagdog" weight="1" />
+      <edge id="65" source="Shinobi3" target="djdenis912" weight="1" />
+      <edge id="66" source="Shinobi3" target="lebankier" weight="1" />
+      <edge id="67" source="Shinobi3" target="bau24" weight="1" />
+      <edge id="68" source="Shinobi3" target="jeuxdecollec" weight="1" />
+      <edge id="69" source="Shinobi3" target="Arn-Occaz" weight="1" />
+      <edge id="70" source="Shinobi3" target="Zarathos37" weight="1" />
+      <edge id="71" source="Shinobi3" target="juvanji76" weight="1" />
+      <edge id="72" source="Shinobi3" target="hedi-b" weight="1" />
+      <edge id="73" source="Shinobi3" target="tutti_media" weight="1" />
+      <edge id="74" source="Shinobi3" target="SPASMINE" weight="1" />
+      <edge id="75" source="gatchaman-02" target="Robotnik" weight="1" />
+      <edge id="76" source="SPASMINE" target="Donald" weight="1" />
+      <edge id="77" source="SPASMINE" target="AlteredBeast" weight="1" />
+      <edge id="78" source="SPASMINE" target="LivreJungle" weight="1" />
+      <edge id="79" source="Dvdcave" target="Galahad" weight="1" />
+      <edge id="80" source="Dvdcave" target="AlteredBeast" weight="1" />
+      <edge id="81" source="Dvdcave" target="Robotnik" weight="1" />
+      <edge id="82" source="uniistyle" target="Castlevania" weight="1" />
+      <edge id="83" source="drill3333" target="Strider" weight="1" />
+      <edge id="84" source="drill3333" target="WorldOfIllusion" weight="1" />
+      <edge id="85" source="momox" target="DynamiteHeaddy" weight="1" />
+      <edge id="86" source="momox" target="Robotnik" weight="1" />
+      <edge id="87" source="momox" target="Chakan" weight="1" />
+      <edge id="88" source="momox" target="LivreJungle" weight="1" />
+      <edge id="89" source="momox" target="WorldOfIllusion" weight="1" />
+      <edge id="90" source="Zertyr" target="LivreJungle" weight="1" />
+      <edge id="91" source="sensei90" target="WorldOfIllusion" weight="1" />
+      <edge id="92" source="mixomedia" target="Strider" weight="1" />
+      <edge id="93" source="mixomedia" target="AlteredBeast" weight="1" />
+      <edge id="94" source="Livresia" target="WorldOfIllusion" weight="1" />
+      <edge id="95" source="neor24" target="LivreJungle" weight="1" />
+      <edge id="96" source="media-market" target="Robotnik" weight="1" />
+      <edge id="97" source="gatteau1" target="LivreJungle" weight="1" />
+      <edge id="98" source="yannickb85" target="Donald" weight="1" />
+      <edge id="99" source="michel03110" target="WorldOfIllusion" weight="1" />
+      <edge id="100" source="Sillicium" target="Robotnik" weight="1" />
+      <edge id="101" source="LivreJungle" target="damino95" weight="1" />
+      <edge id="102" source="LivreJungle" target="ecopsypro" weight="1" />
+      <edge id="103" source="LivreJungle" target="wr23" weight="1" />
+      <edge id="104" source="LivreJungle" target="eddymarley" weight="1" />
+      <edge id="105" source="SupremeGamer" target="WorldOfIllusion" weight="1" />
+      <edge id="106" source="magick41" target="Robotnik" weight="1" />
+      <edge id="107" source="magick41" target="AlteredBeast" weight="1" />
+      <edge id="108" source="cyl20" target="AlteredBeast" weight="1" />
+      <edge id="109" source="ferraillou16" target="AlteredBeast" weight="1" />
+      <edge id="110" source="ferraillou16" target="WorldOfIllusion" weight="1" />
+      <edge id="111" source="Chakan" target="metallica5" weight="1" />
+      <edge id="112" source="Chakan" target="mike93fr" weight="1" />
+      <edge id="113" source="Chakan" target="boubou13006" weight="1" />
+      <edge id="114" source="Chakan" target="ChrisRF" weight="1" />
+      <edge id="115" source="Chakan" target="scaroff2" weight="1" />
+      <edge id="116" source="kutkiller79" target="Robotnik" weight="1" />
+      <edge id="117" source="ChrisRF" target="AlteredBeast" weight="1" />
+      <edge id="118" source="ChrisRF" target="WorldOfIllusion" weight="1" />
+      <edge id="119" source="bourgogneTPG" target="StreetsOfRage2" weight="1" />
+      <edge id="120" source="bourgogneTPG" target="Robotnik" weight="1" />
+      <edge id="121" source="neoayato_com" target="Donald" weight="1" />
+      <edge id="122" source="neoayato_com" target="WorldOfIllusion" weight="1" />
+      <edge id="123" source="dedoire1" target="Strider" weight="1" />
+      <edge id="124" source="AlteredBeast" target="karenb" weight="1" />
+      <edge id="125" source="AlteredBeast" target="trashy-synny" weight="1" />
+      <edge id="126" source="AlteredBeast" target="ecopsypro" weight="1" />
+      <edge id="127" source="AlteredBeast" target="angst3" weight="1" />
+      <edge id="128" source="AlteredBeast" target="GeeKihabara" weight="1" />
+      <edge id="129" source="AlteredBeast" target="amic3476" weight="1" />
+      <edge id="130" source="AlteredBeast" target="hedi-b" weight="1" />
+      <edge id="131" source="AlteredBeast" target="a-ligne-z" weight="1" />
+      <edge id="132" source="raptosnake" target="Donald" weight="1" />
+      <edge id="133" source="sevgames" target="Robotnik" weight="1" />
+      <edge id="134" source="trashy-synny" target="DynamiteHeaddy" weight="1" />
+      <edge id="135" source="hedi-b" target="StreetsOfRage2" weight="1" />
+      <edge id="136" source="hedi-b" target="Robotnik" weight="1" />
+      <edge id="137" source="hedi-b" target="Ghouls" weight="1" />
+      <edge id="138" source="hedi-b" target="Castlevania" weight="1" />
+      <edge id="139" source="domy28" target="Castlevania" weight="1" />
+      <edge id="140" source="clocloboutik" target="DynamiteHeaddy" weight="1" />
+      <edge id="141" source="mike93fr" target="Galahad" weight="1" />
+      <edge id="142" source="mike93fr" target="ToeJam" weight="1" />
+      <edge id="143" source="sharkobaba" target="WorldOfIllusion" weight="1" />
+      <edge id="144" source="vince89110" target="Castlevania" weight="1" />
+      <edge id="145" source="sonic2015" target="ToeJam" weight="1" />
+      <edge id="146" source="sddp77" target="Robotnik" weight="1" />
+      <edge id="147" source="amboisedulys" target="Ghouls" weight="1" />
+      <edge id="148" source="lucileanger" target="Robotnik" weight="1" />
+      <edge id="149" source="pitchoune115" target="Strider" weight="1" />
+      <edge id="150" source="DynamiteHeaddy" target="patmanico" weight="1" />
+      <edge id="151" source="DynamiteHeaddy" target="jeuxdecollec" weight="1" />
+      <edge id="152" source="DynamiteHeaddy" target="GeeKihabara" weight="2" />
+      <edge id="153" source="DynamiteHeaddy" target="SIMPSONS4" weight="1" />
+      <edge id="154" source="Telzat" target="Castlevania" weight="1" />
+      <edge id="155" source="summeroflove" target="WorldOfIllusion" weight="1" />
+      <edge id="156" source="ecopsypro" target="Robotnik" weight="1" />
+      <edge id="157" source="ecopsypro" target="WorldOfIllusion" weight="1" />
+      <edge id="158" source="pepere71230" target="Strider" weight="1" />
+      <edge id="159" source="Castlevania" target="coranais78" weight="1" />
+      <edge id="160" source="Castlevania" target="pentium4" weight="1" />
+      <edge id="161" source="SOLDATRYAN1" target="Robotnik" weight="1" />
+      <edge id="162" source="TofJV777" target="StreetsOfRage2" weight="1" />
+      <edge id="163" source="arthurmuscik" target="Robotnik" weight="1" />
+      <edge id="164" source="jeuxdecollec" target="Robotnik" weight="1" />
+      <edge id="165" source="musclor19" target="Robotnik" weight="1" />
+      <edge id="166" source="Dying-Z" target="Strider" weight="1" />
+      <edge id="167" source="Sam94sam" target="WorldOfIllusion" weight="2" />
+      <edge id="168" source="noushkay" target="ToeJam" weight="1" />
+      <edge id="169" source="noushkay" target="WorldOfIllusion" weight="1" />
+      <edge id="170" source="KCLC" target="Galahad" weight="1" />
+      <edge id="171" source="pentium4" target="WorldOfIllusion" weight="1" />
+      <edge id="172" source="Galahad" target="fiesta8370" weight="1" />
+      <edge id="173" source="Galahad" target="GeeKihabara" weight="1" />
+      <edge id="174" source="scully38" target="Robotnik" weight="1" />
+      <edge id="175" source="WorldOfIllusion" target="nelvin31" weight="1" />
+      <edge id="176" source="WorldOfIllusion" target="fred2817" weight="1" />
+      <edge id="177" source="WorldOfIllusion" target="GSFretro" weight="1" />
+      <edge id="178" source="WorldOfIllusion" target="GeeKihabara" weight="4" />
+      <edge id="179" source="WorldOfIllusion" target="luluthewest" weight="1" />
+      <edge id="180" source="Serkeril" target="Robotnik" weight="1" />
+      <edge id="181" source="Robotnik" target="GeeKihabara" weight="2" />
+      <edge id="182" source="Robotnik" target="xx-007" weight="1" />
+      <edge id="183" source="GeeKihabara" target="Donald" weight="1" />
+      <edge id="184" source="frankzane" target="Donald" weight="1" />
+    </edges>
+  </graph>
+</gexf>
